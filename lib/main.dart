@@ -58,7 +58,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       initialRoute: AppPages.INITIAL,
-      initialBinding: AllControllersBinding(),
+      // initialBinding: AllControllersBinding(),
       getPages: AppPages.routes,
       unknownRoute: GetPage(
         name: '/notFound',

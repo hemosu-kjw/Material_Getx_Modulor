@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:start_flutter/app/controllers/all_controllers.dart';
+import 'package:start_flutter/app/modules/main/controllers/main_controller.dart';
 import '/main.dart';
 import 'package:get/get.dart';
 
@@ -17,7 +18,7 @@ import 'package:get/get.dart';
  *        It is similar to GetView with one defference it gives the same instance of Get.find everytime.
  *        It becomes very useful when used in combination with Get.create.
 */
-class MainPage extends GetView<AllControllers> {
+class MainPage extends GetView<MainController> {
   //const MainPage({Key? key}) : super(key: key);
 
   @override
@@ -36,7 +37,7 @@ class MainPage extends GetView<AllControllers> {
           children: [
             Obx(
               () => Text(
-                '${controller.mainController.count}',
+                '${controller.count}',
                 style: TextStyle(fontSize: 32),
               ),
             ),
@@ -44,7 +45,7 @@ class MainPage extends GetView<AllControllers> {
             ElevatedButton(
               child: Text('increment'),
               onPressed: () {
-                controller.mainController.increment();
+                controller.increment();
               },
             ),
           ],
