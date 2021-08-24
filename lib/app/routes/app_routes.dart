@@ -4,10 +4,10 @@ abstract class Routes {
   Routes._();
 
   static const HOME = _Paths.HOME;
-  static const FIRST = _Paths.FIRST;
+  static const OTHER = _Paths.OTHER;
 }
 
 abstract class _Paths {
   static const HOME = '/';
-  static const FIRST = '/first';
+  static const OTHER = '/other';
 }
