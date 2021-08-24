@@ -1,6 +1,8 @@
 import 'package:get/get.dart';
+import 'package:start_flutter/app/modules/main/bindings/first_binding.dart';
 import 'package:start_flutter/app/modules/main/bindings/main_binding.dart';
 import 'package:start_flutter/app/modules/main/views/mainpage.dart';
+import 'package:start_flutter/app/modules/main/views/sub/first_page.dart';
 import 'package:start_flutter/app/modules/other/bindings/other_binding.dart';
 import 'package:start_flutter/app/modules/other/views/other_page.dart';
 
@@ -21,6 +23,12 @@ class AppPages {
       name: _Paths.OTHER,
       binding: OtherBinding(),
       page: () => OtherPage(),
+    ),
+    // main
+    GetPage(
+      name: _Paths.FIRST,
+      page: () => FirstPage(),
+      binding: FirstBinding(),
     ),
 
     // GetPage(
