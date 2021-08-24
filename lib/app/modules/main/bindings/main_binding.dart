@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 import 'package:start_flutter/app/modules/main/controllers/main_controller.dart';
 
-class MainBinding implements Bindings {
+class MainBinding extends Bindings {
   @override
   void dependencies() {
     Get.lazyPut<MainController>(

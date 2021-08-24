@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:start_flutter/app/controllers/all_controllers.dart';
 import 'package:start_flutter/app/modules/main/controllers/main_controller.dart';
 import '/main.dart';
 import 'package:get/get.dart';
