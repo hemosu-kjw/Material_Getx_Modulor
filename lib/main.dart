@@ -35,7 +35,6 @@ class MyApp extends StatelessWidget {
        *       SmarManagement will not have permissions to exclude this dependency. 
        */
       smartManagement: SmartManagement.full, // .keepFactory, .onlyBuilders
-      initialBinding: AllControllersBinding(),
       //
       title: appTitle,
       theme: ThemeData(
@@ -59,6 +58,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       initialRoute: AppPages.INITIAL,
+      initialBinding: AllControllersBinding(),
       getPages: AppPages.routes,
       unknownRoute: GetPage(
         name: '/notFound',
