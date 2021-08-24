@@ -14,7 +14,7 @@ class OtherPage extends GetView<OtherController> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'First',
+              'Other',
               style: TextStyle(
                 fontSize: 28,
               ),
