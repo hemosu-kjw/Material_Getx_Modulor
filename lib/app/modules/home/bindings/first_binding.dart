@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:start_flutter/app/modules/main/controllers/first_controller.dart';
+import 'package:start_flutter/app/modules/home/controllers/first_controller.dart';
 
 class FirstBinding extends Bindings {
   @override

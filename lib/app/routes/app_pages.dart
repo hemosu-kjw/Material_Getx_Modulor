@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
-import 'package:start_flutter/app/modules/main/bindings/first_binding.dart';
-import 'package:start_flutter/app/modules/main/bindings/main_binding.dart';
-import 'package:start_flutter/app/modules/main/views/mainpage.dart';
-import 'package:start_flutter/app/modules/main/views/sub/first_page.dart';
+import 'package:start_flutter/app/modules/home/bindings/first_binding.dart';
+import 'package:start_flutter/app/modules/home/bindings/home_binding.dart';
+import 'package:start_flutter/app/modules/home/views/home_page.dart';
+import 'package:start_flutter/app/modules/home/views/sub/first_page.dart';
 import 'package:start_flutter/app/modules/other/bindings/other_binding.dart';
 import 'package:start_flutter/app/modules/other/views/other_page.dart';
 
@@ -16,8 +16,8 @@ class AppPages {
   static final routes = [
     GetPage(
       name: _Paths.HOME,
-      page: () => MainPage(),
-      binding: MainBinding(),
+      page: () => HomePage(),
+      binding: HomeBinding(),
     ),
     GetPage(
       name: _Paths.OTHER,

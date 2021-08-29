@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:start_flutter/app/modules/main/widgets/bottom_navi_fab_widget.dart';
+import 'package:start_flutter/app/modules/home/widgets/bottom_navi_fab_widget.dart';
 import '/main.dart';
 import 'package:get/get.dart';
 

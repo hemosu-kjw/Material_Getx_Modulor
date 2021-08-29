@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:start_flutter/app/modules/main/controllers/main_controller.dart';
+import 'package:start_flutter/app/modules/home/controllers/home_controller.dart';
 import '/main.dart';
 import 'package:get/get.dart';
 
@@ -17,7 +17,7 @@ import 'package:get/get.dart';
  *        It is similar to GetView with one defference it gives the same instance of Get.find everytime.
  *        It becomes very useful when used in combination with Get.create.
 */
-class MainPage extends GetView<MainController> {
+class HomePage extends GetView<HomeController> {
   //const MainPage({Key? key}) : super(key: key);
 
   @override

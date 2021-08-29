@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:start_flutter/app/modules/main/controllers/first_controller.dart';
+import 'package:start_flutter/app/modules/home/controllers/first_controller.dart';
 
 class FirstPage extends GetView<FirstController> {
   //const FirstPage({Key? key}) : super(key: key);

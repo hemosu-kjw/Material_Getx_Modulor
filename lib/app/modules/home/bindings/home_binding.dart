@@ -1,11 +1,11 @@
 import 'package:get/get.dart';
-import 'package:start_flutter/app/modules/main/controllers/main_controller.dart';
+import 'package:start_flutter/app/modules/home/controllers/home_controller.dart';
 
-class MainBinding extends Bindings {
+class HomeBinding extends Bindings {
   @override
   void dependencies() {
-    Get.lazyPut<MainController>(
-      () => MainController(),
+    Get.lazyPut<HomeController>(
+      () => HomeController(),
     );
   }
 

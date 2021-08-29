@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:start_flutter/app/modules/main/views/sub/first_page.dart';
-import 'package:start_flutter/app/modules/main/views/sub/fourth_page.dart';
-import 'package:start_flutter/app/modules/main/views/sub/second_page.dart';
-import 'package:start_flutter/app/modules/main/views/sub/third_page.dart';
+import 'package:start_flutter/app/modules/home/views/sub/first_page.dart';
+import 'package:start_flutter/app/modules/home/views/sub/fourth_page.dart';
+import 'package:start_flutter/app/modules/home/views/sub/second_page.dart';
+import 'package:start_flutter/app/modules/home/views/sub/third_page.dart';
 import 'package:start_flutter/main.dart';
 
 class MainTabBarPage extends StatefulWidget {

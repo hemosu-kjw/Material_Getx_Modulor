@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:start_flutter/app/modules/main/widgets/bottom_navi_widget.dart';
+import 'package:start_flutter/app/modules/home/widgets/bottom_navi_widget.dart';
 import 'package:start_flutter/main.dart';
 
 // import 'sub/first_page.dart';
