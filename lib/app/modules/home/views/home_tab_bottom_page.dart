@@ -6,15 +6,15 @@ import 'sub/second_page.dart';
 import 'sub/third_page.dart';
 import 'sub/fourth_page.dart';
 
-class MainTabBottomPage extends StatefulWidget {
-  //const MainTabBottomPage({Key? key}) : super(key: key);
+class HomeTabBottomPage extends StatefulWidget {
+  //const HomeTabBottomPage({Key? key}) : super(key: key);
   final String appTitle = 'AppBar UI';
 
   @override
-  _MainTabBottomPageState createState() => _MainTabBottomPageState();
+  _HomeTabBottomPageState createState() => _HomeTabBottomPageState();
 }
 
-class _MainTabBottomPageState extends State<MainTabBottomPage>
+class _HomeTabBottomPageState extends State<HomeTabBottomPage>
     with SingleTickerProviderStateMixin {
   late TabController controller; // TabController
   var img;

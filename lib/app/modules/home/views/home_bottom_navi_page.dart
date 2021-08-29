@@ -8,13 +8,13 @@ import 'package:start_flutter/main.dart';
 // import 'sub/third_page.dart';
 // import 'sub/fourth_page.dart';
 
-class MainBottomNaviPage extends StatefulWidget {
-  //const MainBottomNaviPage({Key? key}) : super(key: key);
+class HomeBottomNaviPage extends StatefulWidget {
+  //const HomeBottomNaviPage({Key? key}) : super(key: key);
   @override
-  _MainBottomNaviPageState createState() => _MainBottomNaviPageState();
+  _HomeBottomNaviPageState createState() => _HomeBottomNaviPageState();
 }
 
-class _MainBottomNaviPageState extends State<MainBottomNaviPage> {
+class _HomeBottomNaviPageState extends State<HomeBottomNaviPage> {
   var _selectedIndex = 0.obs; // NOTE getx
   late List<Widget> _widgetOptions; // buildWidget()사용시.
 

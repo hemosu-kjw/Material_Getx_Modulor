@@ -8,13 +8,13 @@ import 'sub/second_page.dart';
 import 'sub/third_page.dart';
 import 'sub/fourth_page.dart';
 
-class MainBottomNaviFabPage extends StatefulWidget {
-  //const MainBottomNaviFabPage({Key? key}) : super(key: key);
+class HomeBottomNaviFabPage extends StatefulWidget {
+  //const HomeBottomNaviFabPage({Key? key}) : super(key: key);
   @override
-  _MainBottomNaviFabPageState createState() => _MainBottomNaviFabPageState();
+  _HomeBottomNaviFabPageState createState() => _HomeBottomNaviFabPageState();
 }
 
-class _MainBottomNaviFabPageState extends State<MainBottomNaviFabPage> {
+class _HomeBottomNaviFabPageState extends State<HomeBottomNaviFabPage> {
   var _selectedIndex = 0.obs; // NOTE getx
   // late List<Widget> _widgetOptions; // buildWidget()사용시.
   List _widgetOptions = [

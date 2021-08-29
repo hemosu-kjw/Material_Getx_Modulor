@@ -7,13 +7,13 @@ import 'package:get/get.dart';
 // import 'sub/third_page.dart';
 // import 'sub/fourth_page.dart';
 
-class MainBottomCustomPage extends StatefulWidget {
-  //const MainBottomCustomPage({Key? key}) : super(key: key);
+class HomeBottomCustomPage extends StatefulWidget {
+  //const HomeBottomCustomPage({Key? key}) : super(key: key);
   @override
-  _MainBottomCustomPageState createState() => _MainBottomCustomPageState();
+  _HomeBottomCustomPageState createState() => _HomeBottomCustomPageState();
 }
 
-class _MainBottomCustomPageState extends State<MainBottomCustomPage> {
+class _HomeBottomCustomPageState extends State<HomeBottomCustomPage> {
   var _selectedIndex = 0.obs; // NOTE getx
   final sizeHeight = 80.0;
   late List<Widget> _widgetOptions;

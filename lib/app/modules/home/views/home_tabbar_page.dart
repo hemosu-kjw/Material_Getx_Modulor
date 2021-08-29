@@ -5,15 +5,15 @@ import 'package:start_flutter/app/modules/home/views/sub/second_page.dart';
 import 'package:start_flutter/app/modules/home/views/sub/third_page.dart';
 import 'package:start_flutter/main.dart';
 
-class MainTabBarPage extends StatefulWidget {
-  //const MainTabBarPage({Key? key}) : super(key: key);
+class HomeTabBarPage extends StatefulWidget {
+  //const HomeTabBarPage({Key? key}) : super(key: key);
   final String appTitle = 'AppBar UI';
 
   @override
-  _MainTabBarPageState createState() => _MainTabBarPageState();
+  _HomeTabBarPageState createState() => _HomeTabBarPageState();
 }
 
-class _MainTabBarPageState extends State<MainTabBarPage>
+class _HomeTabBarPageState extends State<HomeTabBarPage>
     with SingleTickerProviderStateMixin {
   late TabController controller; // TabController
   var img;
