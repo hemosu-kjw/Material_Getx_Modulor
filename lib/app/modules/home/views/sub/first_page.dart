@@ -5,6 +5,8 @@ import 'package:start_flutter/app/modules/home/controllers/first_controller.dart
 class FirstPage extends GetView<FirstController> {
   //const FirstPage({Key? key}) : super(key: key);
   final String appTitle = 'Title';
+  //  home_tabbar_page 사용시.
+  // FirstController firstController = Get.put(FirstController());
 
   @override
   Widget build(BuildContext context) {
