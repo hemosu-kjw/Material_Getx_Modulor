@@ -1,12 +1,21 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:start_flutter/app/bindings/all_controllers_binding.dart';
 import 'package:start_flutter/app/routes/app_pages.dart';
 import 'app/routes/not_found_route.dart';
 
-void main() {
-  // 앱 시작전 controller 초기화가 필요한 경우 추가.
-  // MainBinding.initailize();
+Future<void> main() async {
+  // 앱 시작전 초기화(controller)가 필요한 경우 추가.
+  // WidgetsFlutterBinding.ensureInitialized();
+  // await SystemChrome.setPreferredOrientations([
+  //   // 세로 전용.<기본: 가로세로모드 활성>
+  //   DeviceOrientation.portraitUp,
+  //   DeviceOrientation.portraitDown,
+  //   // 가로 전용.
+  //   DeviceOrientation.landscapeLeft,
+  //   DeviceOrientation.landscapeRight,
+  // ]);
   runApp(MyApp());
 }
 
